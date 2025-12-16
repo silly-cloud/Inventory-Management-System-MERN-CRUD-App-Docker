@@ -13,7 +13,7 @@ services:
     build: ./Backend
     container_name: inventoryback
     ports:
-      - "3030:3001"
+      - "3001:3001"
     environment:
       MONGO_URI: mongodb://mongodb:27017/IMS
     depends_on:
